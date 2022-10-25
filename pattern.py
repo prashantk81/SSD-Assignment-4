@@ -8,7 +8,6 @@ def lowerPattern():
     print("          \\____________/")   
 
 upperPattern()    
-# print("\n")
 print("          +------------+")
 upperPattern()
 lowerPattern()
