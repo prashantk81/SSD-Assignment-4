@@ -2,6 +2,8 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import style
+import time
+import pandas as pd
 style.use('fivethirtyeight')
 # style.use('dark_background')
 
@@ -75,8 +77,8 @@ allPltX=[0]
 allPltY=[0]
 startingDir=""
 lastDir=""
-totalDistance=0
-with open("./file.csv", 'r') as file:
+totalDistance=0.0
+with open("./directionData.csv", 'r') as file:
   csvreader = csv.reader(file)
   next(csvreader)
   for row in csvreader:
