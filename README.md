@@ -32,10 +32,16 @@ run this command `python3 address.py update Zip=12344 where FirstName=Prashant`
 =>Search entry in the address directory
 run this command `python3 address.py search FirstName=Prashant LastName=Kumar`
 
+All the operations are case-sensitive
+
 ## Q3-> File Name is map.py
 
     In this part of question we used matplotlib, numpy,pandas library...
-    we take input from directionData.csv file which contains set of lengths and directions.
+    I take input from directionData.csv file which contains set of lengths and directions.
+    I take all the length in (millimeter)mm unit.
 
-=> to run this file `python3 map.py directionData.csv`
-we print total distance and initial and file direction in command prompt.
+I assumed, initial location of Person P is origin(0,0)
+
+=> to run this file `python3 map.py`
+We print direction and distance on the command prompt at each and every step with respect to initial position.
+we also print total distance on command prompt.
